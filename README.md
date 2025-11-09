@@ -4,7 +4,7 @@
 ### *Deep Learning aplicado a análisis de video deportivo*
 <br>
 
-[Jeferson Acevedo](https://github.com/Jeferson0809) • [Brayan Quintero](https://github.com/BrayanQuintero123) • [Reinaldo Cardenas](https://github.com/samtras)
+[Jeferson Acevedo](https://github.com/Jeferson0809) • [Brayan Quintero](https://github.com/BrayanQuintero123) • [Reinaldo Cardenas](https://github.com/reinaldocardenas23)
 
 </div>
 
@@ -130,7 +130,7 @@ App pública disponible en **Hugging Face Spaces** 👇
 Hecho con ❤️ usando **PyTorch** y **Gradio**
 
 </div>
-```
+
 
 
 
