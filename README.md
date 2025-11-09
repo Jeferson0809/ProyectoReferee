@@ -6,13 +6,26 @@
 
 [Jeferson Acevedo](https://github.com/Jeferson0809) • [Brayan Quintero](https://github.com/BrayanQuintero123) • [Reinaldo Cardenas](https://github.com/reinaldocardenas23)
 
+---
+
 </div>
 
-Los eventos dentro de un partido de fútbol —como **goles, saques de banda, faltas o tiros al arco**— son momentos clave que determinan el ritmo del juego. Sin embargo, su identificación automática en video requiere comprender tanto la **información espacial** (lo que ocurre en cada frame) como la **información temporal** (cómo evoluciona la acción).
+El análisis automático de videos deportivos permite identificar y clasificar momentos relevantes dentro de un partido de fútbol —como **saques de banda, faltas, corners o tiros al arco**—, lo que facilita el análisis táctico, la indexación y la generación de resúmenes automáticos.
 
-Este proyecto implementa un sistema de **clasificación automática de eventos futbolísticos** mediante **modelos 3D convolucionales (ResNet-3D)**, con una interfaz interactiva construida en **Gradio**.  
+Este proyecto implementa un **sistema de clasificación de eventos futbolísticos** a partir de videos, utilizando **clips temporales generados automáticamente** y un **modelo 3D CNN** (por defecto `r3d_18` de TorchVision) entrenado sobre datos del conjunto **SoccerNet**.
 
-> **Objetivo:** Desarrollar un modelo que reciba clips de video y determine qué tipo de evento futbolístico ocurre, como *Throw-in*, *Corner*, *Foul*, o *Shots on target*.
+> **Objetivo:** Detectar y clasificar eventos de fútbol a partir de clips cortos de video, con una interfaz visual desarrollada en Gradio.
+
+---
+
+## 🧠 Fundamento teórico
+
+El enfoque está inspirado en el trabajo de Carreira & Zisserman (2017):  
+**“Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset.”**  
+📄 [Arxiv PDF](https://arxiv.org/pdf/1711.11248)
+
+Dicho trabajo introdujo las **redes convolucionales 3D infladas (I3D)**, que extienden las convoluciones espaciales de 2D a 3D para capturar información temporal.  
+Nuestro modelo sigue este principio, implementado mediante una **ResNet-3D (r3d_18)** de `torchvision`, optimizada para clips de fútbol.
 
 ---
 
