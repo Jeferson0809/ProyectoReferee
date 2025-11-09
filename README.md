@@ -31,7 +31,7 @@ Nuestro modelo sigue este principio, implementado mediante una **ResNet-3D (r3d_
 
 ## 🎯 Características principales
 
-- 📹 **Entrada:** Clips de video cortos (2–3 segundos) recortados directamente desde la interfaz.  
+- 📹 **Entrada:** Clips de video cortos recortados directamente desde la interfaz.  
 - 🧠 **Modelo base:** `ResNet-3D (r3d_18)` preentrenada en *Kinetics*, adaptada a 8 clases de eventos.  
 - ⚡ **Procesamiento de video:**
   - Muestreo uniforme de `T = 16` frames.
