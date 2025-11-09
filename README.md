@@ -121,7 +121,7 @@ App pública disponible en **Hugging Face Spaces** 👇
 
 ## 🎥 Video explicativo
 
-[![Ver video en YouTube](https://img.youtube.com/vi/abcd1234xyz/hqdefault.jpg)](https://www.youtube.com/watch?v=abcd1234xyz)
+[![Ver video en YouTube](https://img.youtube.com/vi/abcd1234xyz/hqdefault.jpg)](https://www.youtube.com/watch?v=EzJVx-co_Ig&t=20s)
 
 ---
 
