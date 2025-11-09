@@ -90,7 +90,7 @@ CLASS_LABELS = [
     "Shots off target",
     "Corner"
 ]
-````
+```
 
 ### Proceso de entrenamiento
 
