@@ -1,4 +1,4 @@
-
+<div align="center">
 # ⚽ Clasificación de Eventos en Partidos de Fútbol  
 ### *Deep Learning aplicado a análisis de video deportivo*
 <br>
