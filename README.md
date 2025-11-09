@@ -17,6 +17,10 @@ Este proyecto implementa un **sistema de clasificación de eventos futbolístico
 
 ---
 
+<img width="14400" height="3849" alt="imagen" src="https://github.com/user-attachments/assets/8faff292-bf84-4be5-9c05-d508f21948ea" />
+
+---
+
 ## 🧠 Fundamento teórico
 
 El enfoque está inspirado en el trabajo de Carreira & Zisserman (2017):  
