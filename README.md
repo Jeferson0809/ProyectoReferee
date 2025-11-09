@@ -1,4 +1,3 @@
-<img width="14400" height="3849" alt="imagen" src="https://github.com/user-attachments/assets/6af9b12f-a230-47f2-9d61-b073caea6563" /><div align="center">
 
 # ⚽ Clasificación de Eventos en Partidos de Fútbol  
 ### *Deep Learning aplicado a análisis de video deportivo*
@@ -15,6 +14,9 @@ El análisis automático de videos deportivos permite identificar y clasificar m
 Este proyecto implementa un **sistema de clasificación de eventos futbolísticos** a partir de videos, utilizando **clips temporales generados automáticamente** y un **modelo 3D CNN** (por defecto `r3d_18` de TorchVision) entrenado sobre datos del conjunto **SoccerNet**.
 
 > **Objetivo:** Detectar y clasificar eventos de fútbol a partir de clips cortos de video, con una interfaz visual desarrollada en Gradio.
+
+---
+<img width="14400" height="3849" alt="imagen" src="https://github.com/user-attachments/assets/6af9b12f-a230-47f2-9d61-b073caea6563" /><div align="center">
 
 ---
 
