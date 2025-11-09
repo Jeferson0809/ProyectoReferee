@@ -71,13 +71,6 @@ ProyectoReferee/
 ├── modelo.pth
 
 
-````
----
-## Pipeline
-
-<img width="14400" height="3849" alt="imagen" src="https://github.com/user-attachments/assets/df8cf065-1c01-4418-b181-2592e1602306" />
-
----
 
 ## 🧠 Modelo y entrenamiento
 
