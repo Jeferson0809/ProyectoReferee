@@ -114,7 +114,6 @@ def build_model(num_classes=NUM_CLASSES):
 _model = build_model(NUM_CLASSES).to(DEVICE)
 _model.eval()
 
-# --- reemplaza tu try_load_ckpt por este ---
 def try_load_ckpt(model, ckpt_path, ignore_prefixes=("stem.", "fc.")):
     if not ckpt_path or not Path(ckpt_path).exists():
         return "Sin checkpoint (usando pesos aleatorios)."
@@ -210,7 +209,7 @@ def infer_and_build_py(video_file):
         txt = f"Predicción: **{pred_label}**\n\nTop-3:\n" + "\n".join(
             [f"- {lbl}: {score:.4f}" for lbl, score in topk_list]
         )
-        # archivo .py descargable
+        
         py_path = make_result_py(pred_label, topk_list)
         # JSON con todas las probabilidades (por si lo quieres)
         probs_json = {CLASS_LABELS[i]: float(p) for i, p in enumerate(probs)}
