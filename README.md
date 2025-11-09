@@ -1,4 +1,4 @@
-<div align="center">
+<img width="14400" height="3849" alt="imagen" src="https://github.com/user-attachments/assets/6af9b12f-a230-47f2-9d61-b073caea6563" /><div align="center">
 
 # ⚽ Clasificación de Eventos en Partidos de Fútbol  
 ### *Deep Learning aplicado a análisis de video deportivo*
@@ -72,6 +72,10 @@ ProyectoReferee/
 
 
 ````
+---
+## Pipeline
+
+<img width="14400" height="3849" alt="imagen" src="https://github.com/user-attachments/assets/df8cf065-1c01-4418-b181-2592e1602306" />
 
 ---
 
