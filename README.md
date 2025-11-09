@@ -25,14 +25,14 @@ El enfoque está inspirado en el trabajo de Carreira & Zisserman (2017):
 📄 [Arxiv PDF](https://arxiv.org/pdf/1711.11248)
 
 Dicho trabajo introdujo las **redes convolucionales 3D infladas (I3D)**, que extienden las convoluciones espaciales de 2D a 3D para capturar información temporal.  
-Nuestro modelo sigue este principio, implementado mediante una **ResNet-3D (r3d_18)** de `torchvision`, optimizada para clips de fútbol.
+Nuestro modelo sigue este principio, implementado mediante **Convoluciones 3D (R2ELus1D_18)** de `torchvision`, optimizada para clips de fútbol.
 
 ---
 
 ## 🎯 Características principales
 
 - 📹 **Entrada:** Clips de video cortos recortados directamente desde la interfaz.  
-- 🧠 **Modelo base:** `ResNet-3D (r3d_18)` preentrenada en *Kinetics*, adaptada a 8 clases de eventos.  
+- 🧠 **Modelo base:** `Convoluciones 3D (R2ELus1D_18)` preentrenada en *Kinetics*, adaptada a 8 clases de eventos.  
 - ⚡ **Procesamiento de video:**
   - Muestreo uniforme de `T = 16` frames.
   - Resize por lado corto (256 px) y *center crop* (112×112).
@@ -69,7 +69,7 @@ Referee/
 ## 🧠 Modelo y entrenamiento
 
 ### Arquitectura base
-El modelo está basado en **ResNet-3D (r3d_18)** de `torchvision.models.video`, modificada para ajustarse al número de clases de SoccerNet:
+El modelo está basado en **R2ELus1D_18** de `torchvision.models.video`, donde utilizamos los pesos del modelo preentrados en **KINETICS400_V1** modificada para ajustarse al número de clases de SoccerNet:
 
 ```python
 CLASS_LABELS = [
@@ -92,7 +92,6 @@ CLASS_LABELS = [
 * Optimizador: `AdamW`
 * Pérdida: `CrossEntropyLoss`
 * Resolución: 112×112
-* Regularización: *grad clip*, *label smoothing*, *mixup* (opcional)
 
 ---
 
@@ -124,7 +123,7 @@ App pública disponible en **Hugging Face Spaces** 👇
 | Foul            | 0.06         | 🚫             |
 | Corner          | 0.02         | 🥅             |
 
-> El modelo puede mejorarse con clips más largos o arquitecturas temporales (Transformer 3D, TimeSformer, etc.).
+> El modelo puede mejorarse con clips más largos, utilizando todo el dataset de **Soccernet** o probando nuevas arquitecturas temporales (Transformer 3D, TimeSformer, etc.).
 
 ---
 
