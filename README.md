@@ -74,7 +74,7 @@ ProyectoReferee/
 ├── modelo.pth
 
 
-
+```
 ## 🧠 Modelo y entrenamiento
 
 ### Arquitectura base
