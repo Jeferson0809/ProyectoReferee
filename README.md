@@ -16,9 +16,6 @@ Este proyecto implementa un **sistema de clasificación de eventos futbolístico
 > **Objetivo:** Detectar y clasificar eventos de fútbol a partir de clips cortos de video, con una interfaz visual desarrollada en Gradio.
 
 ---
-<img width="14400" height="3849" alt="imagen" src="https://github.com/user-attachments/assets/6af9b12f-a230-47f2-9d61-b073caea6563" /><div align="center">
-
----
 
 ## 🧠 Fundamento teórico
 
