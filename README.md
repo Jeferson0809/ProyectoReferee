@@ -51,16 +51,25 @@ Nuestro modelo sigue este principio, implementado mediante **Convoluciones 3D (R
 
 ```
 
-Referee/
+ProyectoReferee/
 │
-├── app.py               # Aplicación principal de Gradio
-├── modelo.pth           # Pesos del modelo preentrenado
-├── requirements.txt     # Dependencias del proyecto
+├── App/
+│   ├── app.py
+│   ├── apt.txt
 │
-├── data/                # (Opcional) Datasets o scripts de preparación
-├── notebooks/           # Notebooks de entrenamiento / análisis
-├── utils/               # Funciones auxiliares (lectura y procesado)
-└── README.md            # Este archivo
+├── DummyTestingVideos/
+│   ├── Falla penal Cristiano Ronaldo C.mp4
+│   ├── Gol de tiro libre de Neymar.mp4
+│   ├── How to Improve Throw Ins.mp4
+│   ├── Olivier GIROUD GOAL _ FIFA PUSKAS.mp4
+│   ├── different angle of Heung-min S.mp4
+│
+├── LICENSE
+├── README.md
+├── RefereeAservice.ipynb
+├── requirements.txt
+├── modelo.pth
+
 
 ````
 
